@@ -6,8 +6,11 @@
 using namespace std;
 
 int main(){
-	Typewriter hello {"Hello", 100};
-	hello.print();
+	Typewriter t {"Hello", 100};
+	t.print();
+
+	t = "How are you?";
+	t.print();
 
 	return 0;
 }

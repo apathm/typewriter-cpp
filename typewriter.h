@@ -43,6 +43,10 @@ class Typewriter{
 			}
 			cout << "\b" << flush;
 		}
+
+		void operator=(const string& s){
+			this->output = s;
+		}
 };
 
 
